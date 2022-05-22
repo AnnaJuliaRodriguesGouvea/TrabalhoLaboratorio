@@ -76,7 +76,7 @@ public class AcessoControllerTest {
     }
 
     @Test
-    public void test_atualiazarAcessoExistePessoa_comSucesso(){
+    public void test_atualiazarAcessoRemovendoAcesso_comSucesso(){
         //Dado
         Setor setor = Setor.RECEPCIONISTA;
         Categoria categoria = Categoria.CADASTRO;
@@ -92,7 +92,7 @@ public class AcessoControllerTest {
     }
 
     @Test
-    public void test_atualiazarAcessoPessoaNaoTemAcesso_comSucesso(){
+    public void test_atualiazarAcessoAdicionarAcesso_comSucesso(){
         //Dado
         Setor setor = Setor.RECEPCIONISTA;
         Categoria categoria = Categoria.CADASTRO;
